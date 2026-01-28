@@ -17,17 +17,15 @@ Requirements
   - Root privileges
   - Standard utilities: passwd, tar, id
 
-Usage 
-  - ` sudo ./lock_and_archive_user.sh <username> ´
+Usage: ` sudo ./lock_and_archive_user.sh <username> `
 
-Example:
-  - ` sudo ./lock_and_archive_user.sh testuser ´
+Example: ` sudo ./lock_and_archive_user.sh testuser `
 
 Backup & Logs
   - Backups stored at:
-    ``` /root/blockedUsers/ ´´´
+    ``` /root/blockedUsers/ ```
   - Logs stored at:
-    ``` /var/log/blocked_users.log ´´´
+    ``` /var/log/blocked_users.log ```
 
 Warning
   - This script modifies system user accounts and deletes home directories.
